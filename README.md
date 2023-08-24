@@ -1,5 +1,5 @@
-<div align="center">
-    <img src="AldomarAssolin/sistem_bancario_python-DIO/assets/images/TechMobTransp.png" alt="ManexTech" width="100px"/>
+<div align="center" >
+    <img src="assets/images/TechMobTransp.png" width="100%" height="100px" />
 </div>
 
 
