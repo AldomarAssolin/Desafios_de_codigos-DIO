@@ -1,5 +1,5 @@
 <div align="center" >
-    <img src="assets/images/TechMobTransp.png" height="120px"/>
+    <img src="Sitema_bancario_python_DIO/assets/images/TechMobTransp.png" height="120px"/>
 </div>
 
 
@@ -41,7 +41,7 @@ Neste projeto, tive a oportunidade de criar um Sistema Bancário em Python. O ob
 
 <div>
 
-<img src="assets/images/dio.png" width="70px" height="30px"/><br>
+<img src="Sitema_bancario_python_DIO/assets/images/dio.png" width="70px" height="30px"/><br>
 <a>Acesse a plataforma</a>
 
 </div>
