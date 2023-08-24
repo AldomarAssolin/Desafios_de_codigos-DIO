@@ -43,7 +43,7 @@ Neste projeto, tive a oportunidade de criar um Sistema Bancário em Python. O ob
 
 <img src="Sistema_bancario_python_DIO/assets/images/dio.png" width="70px" height="30px"/><br>
 
-<a>Acesse a plataforma</a>
+<a href="https://www.dio.me/bootcamp">Acesse a plataforma</a>
 
 </div>
 
