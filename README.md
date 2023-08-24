@@ -21,11 +21,10 @@ Este repositório tem por objetivo armazenar os desafios de código propostos ne
 <h2 style="color:#fb5940">Módulo - Dominando Python para Ciência de Dados.</h2>
 
 <h3 style="color:#fb5940;font-size:1.35rem">Sistema Bancário simples</h3>
-<h5 style="color:#ab4d3a;font-size:1.25rem">Habilidades Estudadas</h5>
-
 <p>
 Sistema simples com o objetivo de aplicar os conhecimentos adquiridos e desenvolvimentos das técnicas ensinadas.
 </p>
+<h5 style="color:#ab4d3a;font-size:1.25rem">Habilidades Estudadas</h5>
 
 <ul>
 <li>Tipos de operadores;</li>
