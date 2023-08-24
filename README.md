@@ -1,5 +1,5 @@
 <div align="center" >
-    <img src="assets/images/TechMobTransp.png" width="100%" height="100px" />
+    <img src="assets/images/TechMobTransp.png" bg="none"/>
 </div>
 
 
