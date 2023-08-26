@@ -1,8 +1,8 @@
-<div align="center" >
-    <img src="Sistema_bancario_python_DIO/assets/images/TechMobTransp.png" height="120px"/>
-
+<div align="center">
+    <img src="Sistema_bancario_python_DIO/assets/images/TechMobTransp.png" height="100px"/>
+    <img src="Sistema_bancario_python_DIO/assets/images/python.png" height="80px" style="margin:0 1rem"/>
+    <img src="Sistema_bancario_python_DIO/assets/images/dio.png" height="80px"/>
 </div>
-
 
 <div align="center">
 <h1 style="color:#fb5940;border:none;padding-bottom:0">Desafio de código</h1>
@@ -34,7 +34,29 @@ Sistema simples com o objetivo de aplicar os conhecimentos adquiridos e desenvol
 </ul>
 
 <p>
-Neste projeto, tive a oportunidade de criar um Sistema Bancário em Python. O objetivo foi implementar três operações essenciais: depósito, saque e extrato. O sistema foi desenvolvido para um banco que busca monetizar suas operações. Durante o desafio, tive a chance de aplicar meus conhecimentos em programação Python e criar um sistema funcional que simula as operações bancárias. Aprimorando minhas habilidades e demonstrando minha capacidade de desenvolver soluções práticas e eficientes.
+Neste desafio, tive a oportunidade de criar um Sistema Bancário em Python. O objetivo foi implementar três operações essenciais: depósito, saque e extrato. O sistema foi desenvolvido para um banco que busca monetizar suas operações. Durante o desafio, tive a chance de aplicar meus conhecimentos em programação Python e criar um sistema funcional que simula as operações bancárias. Aprimorando minhas habilidades e demonstrando minha capacidade de desenvolver soluções práticas e eficientes.
+</p>
+
+<h3 style="color:#fb5940;font-size:1.35rem">Sistema Bancário - Refatorado</h3>
+<p>
+Nesse desafio refatoramos o sistema anterior.
+</p>
+<h5 style="color:#ab4d3a;font-size:1.25rem">Habilidades Estudadas</h5>
+
+<ul>
+<li>Estruturas de dados Lista;</li>
+<li>Estruturas de dados Tupla;</li>
+<li>Estruturas de dados Conjuntos;</li>
+<li>Estruturas de dados Dicionários.</li>
+<li>Utilização de Funções.</li>
+</ul>
+
+<p>
+Foram adicionadas as oprações de cadastro de conta, cadastro de usuário e também o relacionamento entre usuário e conta.
+</p>
+
+<p>
+Neste desafio, pude ver na prática como refatorar um código, aplicando melhorias nesse Sistema. O objetivo foi refatorar o sistema para o uso de funções, utilizando estruturas de dados para isso. 
 </p>
 
 </div>
