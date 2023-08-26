@@ -67,9 +67,8 @@ print()
 while True:
     
     if saldo == 0:
-        
-        
         print(f"{font_color['Vermelho']}SALDO: R${saldo:.2f}{font_color['limpa']}")
+        
     options = str(input('Digite a operação desejada: '))
     
     if options == '0':
@@ -151,6 +150,7 @@ while True:
         elif saldo > 100 and saldo < 250:
             
             print(f"{font_color['Amarelo']}SALDO: R${saldo:.2f}{font_color['limpa']}")
+            
         else:
             print(f"{font_color['Verde']}SALDO: R${saldo:.2f}{font_color['limpa']}")
         print()

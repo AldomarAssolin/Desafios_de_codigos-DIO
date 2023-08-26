@@ -1,0 +1,41 @@
+font_color = {
+    'Preto':	'\033[1;30m',
+    'Vermelho':	'\033[1;31m',
+    'Verde':	'\033[1;32m',
+    'Amarelo':	'\033[1;33m',
+    'Azul':	'\033[1;34m',
+    'Magenta':	'\033[1;35m',
+    'Cyan':	'\033[1;36m',
+    'Cinza_Claro':	'\033[1;37m',
+    'Cinza_Escuro':	'\033[1;90m',
+    'Vermelho_Claro':	'\033[1;91m',
+    'Verde_Claro':	'\033[1;92m',
+    'Amarelo_Claro':	'\033[1;93m',
+    'Azul_Claro':	'\033[1;94m',
+    'Magenta_Claro':	'\033[1;95m',
+    'Cyan_Claro':	'\033[1;96m',
+    'Branco':	'\033[1;97m',
+    'Negrito':	'\033[;1m',
+    'Inverte':	'\033[;7m',
+    'Reset':	'\033[0;0m',# (remove formatação)
+    'limpa': '\033[m'
+}
+
+backgrounds = {
+    'Preto':	'\033[1;40m',
+    'Vermelho':	'\033[1;41m',
+    'Verde':	'\033[1;42m',
+    'Amarelo':	'\033[1;43m',
+    'Azul':	'\033[1;44m',
+    'Magenta':	'\033[1;45m',
+    'Cyan':	'\033[1;46m',
+    'Cinza_Claro':	'\033[1;47m',
+    'Cinza_Escuro':	'\033[1;100m',
+    'Vermelho_Claro':	'\033[1;101m',
+    'Verde_Claro':	'\033[1;102m',
+    'Amarelo_Claro':	'\033[1;103m',
+    'Azul_Claro':	'\033[1;104m',
+    'Magenta_Claro':	'\033[1;105m',
+    'Cyan_Claro':	'\033[1;106m',
+    'Branco':	'\033[1;107m',
+}
