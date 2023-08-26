@@ -1,105 +1,74 @@
 
 # ToDo: Imprimir a saída no padrão definido no enunciado deste desafio.
 # Dica: Para simplificar a formatação, utilize o conceito de interpolação de strings.
-#***** Qual a opção desejada? *******
+# Deixar pronto para melhorias
 
 
-    # while True:
-        
-    #     options = input('Qual restaurante deseja consultar: ')
-        
-    #     if options == "0":
-    #         nomeRestaurante = "MacDonalds 10"
-    #         tempoEstimadoEntrega = 15
-    #         print(mensagem(nomeRestaurante,tempoEstimadoEntrega))
-    #     elif options == "1":
-    #         nomeRestaurante = "KFC 25"
-    #         tempoEstimadoEntrega = 35
-    #         print(mensagem(nomeRestaurante,tempoEstimadoEntrega))
-    #     elif options == "2":
-    #         nomeRestaurante = "Burger King 5"
-    #         tempoEstimadoEntrega = 22
-    #         print(mensagem(nomeRestaurante,tempoEstimadoEntrega))    
-    #     elif options == "s" or options == "S":
-    #         break
-    #     else:
-    #         print('Opção inválida!')
-import textwrap
 
-def menu():
-    menu = '''\
-    
-    ************* Opcões **************
-    [0] Fazer Pedido
-    [1] Consultar Tempo de Entrega
-    [2] Consultar Cardápio
-    [3] Outros
+header = '''
+    *********** Opções ***********
+    [0] Macdonalds 08
+    [1] Burger King 03
+    [2] KFC 25
     [S] Para sair
-    ***** Restaurantes Disponíveis *****
-     
-    [0] Macdonalds 10
-    [1] KFC 25
-    [2] Burger King 25
-    [S] Para sair
-     
-    ************* Opcões **************
     
+    *********** ______ ***********
     '''
-    
-    return input(textwrap.dedent(menu))
 
 
-def tempo_entrega(nome, tempo):
+footer = '''
+    *********** ______ ***********
     
-    dados_restaurantes = [
-        {"nome": "MacDonalds 10", "tempo": "39"},
-        {"nome": "KFC", "tempo": "32"},
-        {"nome": "Burguer King", "tempo": "29"}
-    ]
-    
-    for chave in dados_restaurantes:
-        dados = chave, dados_restaurantes
+        Você saiu...
+        Volte sempre!
         
-    print(dados)
-        
-   
-            
-    
-    
-def mensagem(restaurante, tempo):
-    retorno = f'''
-        ********* Tempo de Espera **********
-        
-        *** O restaurante {restaurante} entrega em {tempo}min. ***
-        
-        ************* Obrigado *************
+    *********** ______ ***********
     '''
-    print(textwrap.dedent(retorno))
+ 
+
+def entregas(nome_restaurante):
+    nome_restaurante = input('Escolha uma opção: ')
     
-        
+    return nome_restaurante
+
+
+def mensagem(restaurante, tempo_entrega):
+    return print(f'O restaurante {restaurante} entrega em {tempo_entrega} minutos.')
+    
+
 def main():
-    nome = ""
-    tempo = "" 
+    
+    print(header)
+    
+    
+    nome_restaurante = ''
+    tempo_entrega = 0
+
     while True:
-        options = menu()
+        
+        options = entregas(nome_restaurante)
         
         if options == "0":
-            print('Fazer Pedido')
-
+            restaurante = 'MacDonalds'
+            tempo_entrega = 21
+            mensagem(restaurante, tempo_entrega)
+        
         elif options == "1":
-            tempo_entrega(nome, tempo)
+            restaurante = 'Burguer King 03'
+            tempo_entrega = 27
+            mensagem(restaurante, tempo_entrega)
             
         elif options == "2":
-            print('Consultar Cardápio')
+            restaurante = 'KFC 25'
+            tempo_entrega = 17
+            mensagem(restaurante, tempo_entrega)
             
-        elif options == "2":
-            print('Outros')
-            
-        elif options == "S" or options == "s":
+        elif options == 's' or options == 'S':
+            print(footer)
             break
         
         else:
-            print('\n### Opção inválida! ###')
-
+            print('Ação inválida, por favor, entre em contato com o sac.')
+            print(footer)
 
 main()
