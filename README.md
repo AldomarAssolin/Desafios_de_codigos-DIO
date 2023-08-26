@@ -1,6 +1,6 @@
 <div align="center">
     <img src="Sistema_bancario_python_DIO/assets/images/TechMobTransp.png" height="100px"/>
-    <img src="Sistema_bancario_python_DIO/assets/images/python.png" height="80px" style="margin:auto"/>
+    <img src="Sistema_bancario_python_DIO/assets/images/python.png" height="80px" style="margin:0 1rem"/>
     <img src="Sistema_bancario_python_DIO/assets/images/dio.png" height="80px"/>
 </div>
 
