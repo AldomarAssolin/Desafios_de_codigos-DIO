@@ -2,4 +2,10 @@
 /shelf/
 /workspace.xml
 .idea
+.txt
 /assets/__pycache__
+/sistema_bancario_v1/assets/__pycache__
+/sistema_bancario_v2/assets/__pycache__
+/tempo_entrega/assets/__pycache__
+
+
