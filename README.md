@@ -52,7 +52,7 @@ Nesse desafio refatoramos o sistema anterior.
 </ul>
 
 <p>
-Foram adicionadas as oprações de cadastro de conta, cadastro de usuário e também o relacionamento entre usuário e conta.
+Foram adicionadas as operações de cadastro de conta, cadastro de usuário e também o relacionamento entre usuário e conta.
 </p>
 
 <p>
